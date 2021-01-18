@@ -1,0 +1,29 @@
+<div class="chat-content">
+    <div class="row">
+        <div class="col-2">
+        </div>
+        <div class="col-2">
+            <span>ステータス</span>
+        </div>
+        <div class="col-2">
+            <span>カテゴリ</span>
+        </div>
+        <div class="col-6">
+            <span>メッセージ</span>
+        </div>
+    </div>
+    <div class="row" *ngFor="let item of listDetailFriend">
+        <div class="col-2">
+            {{item.avatar}}
+        </div>
+        <div class="col-2">
+            <span>{{item.status}}</span>
+        </div>
+        <div class="col-2">
+            <span>{{item.type}}</span>
+        </div>
+        <div class="col-6">
+            <span>{{item.message}}</span>
+        </div>
+    </div>
+</div>

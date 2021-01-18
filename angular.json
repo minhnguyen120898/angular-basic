@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "first-chatting"
+  "defaultProject": "first-chatting",
+  "cli": {
+    "analytics": "65eed903-bcd2-41b1-a66e-e488149e261d"
+  }
 }
